@@ -12,10 +12,12 @@ function App() {
   // let count =5;
 
   function addvalue() {
+    if(count < 20)
     setCounter(count + 1);
     console.log(count);
   }
   function removevalue() {
+    if(count>0)
     setCounter(count - 1);
     console.log(count);
   }
