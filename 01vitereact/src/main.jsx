@@ -26,11 +26,11 @@ const anotherElement = (
   //attributes of createElement are tagname, object of attributes, children
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
-    <MyApp />
+    {/* <MyApp /> */}
     <App />
-    {anotherElement}
+    {/* {anotherElement}
     <br />
-    {reactElement}
+    {reactElement} */}
   </>
   
 )
