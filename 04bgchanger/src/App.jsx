@@ -13,7 +13,7 @@ function App() {
         <div
         style= {{ backgroundColor: color, width: "100%", height: "100vw" }}>
             <div
-            style={{display: "flex", justifyContent: "center", alignItems: "center", flexWrap: "wrap", border: "1px solid blue", height: "50px", bottom: "40px"}}>
+            style={{display: "flex", justifyContent: "center", alignItems: "center", flexWrap: "wrap", height: "50px", bottom: "40px", backgroundColor: "gray"}}>
               
               <div>
                 <button 
